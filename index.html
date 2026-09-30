@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A bilingual interactive portfolio for Xiaoyan." />
+    <title>Xiaoyan — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;900&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>.project-link{display:inline-flex;align-items:center;gap:8px;background:#171616;color:#fff!important;text-decoration:none;padding:12px 15px;margin:3px 0 8px;font:700 12px "DM Mono",monospace;letter-spacing:.02em;transition:transform .18s,background .18s}.project-link:hover{background:#e52a16;transform:translate(3px,-3px)}.hero h1 small,.ticket h2 small{font:700 .42em "Noto Sans SC",sans-serif;letter-spacing:-.03em;color:#171616;vertical-align:middle}.hero h1 em b{color:#171616;font-weight:400}.mood-preview{display:block;margin:16px 0 25px;text-decoration:none;color:#171616;border:2px solid #171616;box-shadow:7px 7px 0 #e52a16;background:#fff;overflow:hidden;transition:transform .2s}.mood-preview:hover{transform:translate(-3px,-3px)}.mood-preview img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover}.mood-preview span{display:block;padding:9px 12px;font:700 11px "DM Mono",monospace;letter-spacing:.03em}</style>
+    <style>.intro small{display:block;margin-top:10px;font:500 13px/1.55 "Noto Sans SC",sans-serif}.story-map{padding:110px 4vw;background:#e4edf0;color:#171616}.map-heading{max-width:900px;margin:0 auto 55px}.map-heading p,.map-label{font:700 11px "DM Mono",monospace;letter-spacing:.08em;margin:0 0 13px}.map-heading h2{font-size:clamp(3rem,7vw,7rem);line-height:.85;letter-spacing:-.09em;margin:0}.map-heading h2 em{font:italic 600 .8em "Playfair Display",serif;color:#e52a16}.map-heading>span{display:block;margin-top:20px;font:600 16px "Noto Sans SC",sans-serif}.identity-card{max-width:900px;margin:0 auto 24px;padding:35px;border:2px solid #171616;background:#f7f3eb;box-shadow:10px 10px 0 #e52a16}.identity-card>div{display:grid;grid-template-columns:220px 1fr;gap:20px}.identity-card blockquote{font:700 25px/1.25 Manrope;margin:0}.identity-card .cn-quote{display:block;margin-top:24px;padding-top:20px;border-top:1px solid #171616;font:600 20px/1.55 "Noto Sans SC",sans-serif}.positioning{max-width:900px;margin:0 auto 95px;padding:28px 0;border-bottom:2px solid #171616}.positioning>div{display:grid;grid-template-columns:1fr 1fr;gap:36px;font-size:15px;line-height:1.65}.positioning p{margin:0}.map-section-title{max-width:1200px;margin:0 auto 18px;display:flex;align-items:baseline;gap:12px;font:700 13px "DM Mono",monospace}.map-section-title>span{color:#e52a16}.map-section-title h3{font:800 20px Manrope;margin:0;letter-spacing:-.05em}.map-section-title i{font:600 16px "Noto Sans SC",sans-serif;font-style:normal}.chapters,.strength-map{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.chapters article,.strength-map article{padding:22px;border-top:3px solid #171616;background:#f7f3eb;min-height:270px}.chapters b,.strength-map b{font:700 11px "DM Mono",monospace;color:#e52a16}.chapters h4,.strength-map h4{font-size:19px;line-height:1.05;letter-spacing:-.05em;margin:28px 0 14px}.chapters h4 i,.strength-map h4 i{font:600 14px "Noto Sans SC",sans-serif;font-style:normal;letter-spacing:0}.chapters p,.strength-map p{font-size:13px;line-height:1.55;margin:0 0 10px}.chapters small,.strength-map small{font:500 12px/1.55 "Noto Sans SC",sans-serif;color:#403d38}.how{margin-top:90px}.strength-map article{background:#171616;color:#f7f3eb;border-color:#e52a16;min-height:300px}.strength-map small{color:#ded8cf}.strength-map em{display:block;margin-top:19px;font:10px/1.4 "DM Mono",monospace;color:#e67b6f}.current{max-width:900px;margin:85px auto 0;padding:45px 0 0;border-top:2px solid #171616}.current h3{font-size:clamp(2.3rem,5vw,5rem);line-height:.9;letter-spacing:-.08em;margin:0 0 25px}.current h3 i{font:600 .52em "Noto Sans SC",sans-serif;font-style:normal;color:#e52a16}.current>p:not(.map-label){max-width:720px;font-size:16px;line-height:1.65;margin:10px 0}.current strong{display:block;margin-top:35px;font:italic 600 28px/1.1 "Playfair Display",serif}.current strong span{font:600 21px "Noto Sans SC",sans-serif;color:#e52a16}@media(max-width:800px){.story-map{padding:70px 22px}.identity-card{padding:22px}.identity-card>div,.positioning>div{grid-template-columns:1fr;gap:13px}.identity-card blockquote{font-size:20px}.chapters,.strength-map{grid-template-columns:1fr 1fr;gap:10px}.chapters article,.strength-map article{min-height:0;padding:16px}.chapters h4,.strength-map h4{font-size:16px;margin:17px 0 10px}.chapters p,.strength-map p{font-size:12px}.current{margin-top:60px}.map-heading h2{font-size:3.2rem}}</style>
+    <style>.map-heading h2 small{display:block;margin-top:17px;font:600 clamp(1rem,1.7vw,1.45rem)/1.35 "Noto Sans SC",sans-serif;letter-spacing:-.03em;color:#171616}.current strong{font-style:italic}.current strong:not(:has(span)){font-size:28px}</style>
+    <style>.portrait.wave{animation:wave .7s ease-in-out 2!important}.mood-description{font:600 16px/1.7 "Noto Sans SC",sans-serif!important;padding:12px 0 17px;border-bottom:1px solid #171616}.mood-description span{display:block}.mood-description em{display:block;margin-top:9px;font:italic 600 19px/1.35 "Playfair Display",serif}</style>
+  </head>
+  <body>
+    <div class="grain"></div>
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="Home"><span>XY</span> / PORTFOLIO</a>
+      <div class="rule"></div>
+      <nav><a href="#story" data-i18n="nav.story">STORY</a><a href="#strengths" data-i18n="nav.skills">STRENGTHS</a><a href="#experience" data-i18n="nav.work">WORK</a></nav>
+      <button class="language" id="languageToggle" aria-label="Switch language">中文 / EN</button>
+      <span class="status-dot" title="Open to opportunities"></span>
+    </header>
+
+    <main id="home">
+      <section class="hero" aria-label="Introduction">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="hero.eyebrow">PERSONAL PORTFOLIO · 2026</p>
+          <h1><span>XIAOYAN <small>薛笑妍</small></span><em>ABOUT ME <b>/</b> 个人介绍</em></h1>
+          <p class="intro" data-i18n="hero.intro">Still figuring out where I’m going — but certain I can create value along the way.</p>
+          <button class="hello-button" id="helloButton"><span>✦</span> <span data-i18n="hero.hello">Say hello</span></button>
+        </div>
+
+        <div class="portrait-stage" id="portraitStage">
+          <div class="halo"></div>
+          <div class="orbit orbit-one">ANALYTICS · PEOPLE · IDEAS ·</div>
+          <div class="orbit orbit-two">CURIOUS · CAPABLE · OPEN ·</div>
+          <img class="portrait" id="portrait" src="portrait.png" alt="Stylized portrait of Xiaoyan waving hello" />
+          <div class="speech" id="speech"><span>Hi, I’m Xiaoyan!</span><small data-i18n="hero.wave">Tap a ticket to explore.</small></div>
+          <p class="stage-word">CREATE</p>
+        </div>
+
+        <aside class="hero-side">
+          <p class="side-label" data-i18n="hero.now">NOW EXPLORING</p>
+          <p class="handwritten">data, people<br />&amp; the world.</p>
+          <div class="aivibe"><span>AI</span> VIBE<br />CODING</div>
+          <p class="tiny" data-i18n="hero.ai">Prototyping ideas into real, usable experiences.</p>
+        </aside>
+      </section>
+
+      <section class="tickets" aria-label="Portfolio sections">
+        <article class="ticket ticket-project" data-card="projects" tabindex="0" role="button" aria-label="Open projects"><div class="ticket-no">01</div><h2>PROJECTS <small>/ 项目经历</small></h2><p data-i18n="tickets.projectsSub">Mood Map · AI &amp; strategy projects</p><div class="barcode"></div></article>
+        <article class="ticket ticket-work" data-card="experience" tabindex="0" role="button" aria-label="Open experience"><div class="ticket-no">02</div><h2>EXPERIENCE <small>/ 实习经历</small></h2><p data-i18n="tickets.experienceSub">TikTok Shop · VC · Consulting</p><div class="barcode"></div></article>
+        <article class="ticket ticket-skills" data-card="strengths" tabindex="0" role="button" aria-label="Open strengths"><div class="ticket-no">03</div><h2>STRENGTHS <small>/ 核心能力</small></h2><p data-i18n="tickets.strengthsSub">Ambiguity → useful answers</p><div class="barcode"></div></article>
+        <article class="ticket ticket-story" data-card="story" tabindex="0" role="button" aria-label="Open story"><div class="ticket-no">04</div><h2>MY STORY <small>/ 我的故事</small></h2><p data-i18n="tickets.storySub">Learning across borders</p><div class="barcode"></div></article>
+      </section>
+
+      <section class="statement" id="story"><p class="eyebrow" data-i18n="statement.label">A WORK IN PROGRESS</p><h2 data-i18n="statement.title">I want success,<br /><em>but not at the cost of being myself.</em></h2><p data-i18n="statement.body">I’ve moved across disciplines, countries and industries. I’m drawn to work that makes ambiguous problems clearer — and ideas more useful.</p></section>
+
+      <footer><p data-i18n="footer">OPEN TO CONVERSATIONS, COLLABORATION &amp; WHAT’S NEXT.</p><a href="mailto:xuexiaoyan7@gmail.com">LET’S TALK ↗</a></footer>
+    </main>
+
+    <dialog id="detailDialog" aria-labelledby="dialogTitle"><button class="close" id="closeDialog" aria-label="Close">×</button><p class="eyebrow" id="dialogNo">01 / PORTFOLIO</p><h2 id="dialogTitle"></h2><div id="dialogContent"></div><button class="dialog-next" id="nextDetail">NEXT TICKET →</button></dialog>
+    <script src="script.js"></script>
+    <script src="resume-content.js"></script>
+    <script src="mood-preview.js"></script>
+    <script src="mood-copy.js"></script>
+    <script src="story-map.js"></script>
+    <script src="english-body.js"></script>
+  </body>
+</html>

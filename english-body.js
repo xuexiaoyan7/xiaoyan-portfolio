@@ -1,0 +1,10 @@
+document.querySelector('.intro')?.remove();
+document.querySelector('.identity-card .cn-quote')?.remove();
+document.querySelector('.map-heading > span')?.remove();
+document.querySelector('.positioning p:nth-of-type(2)')?.remove();
+document.querySelectorAll('.chapters small, .strength-map small').forEach(node => node.remove());
+const currentParagraphs = document.querySelectorAll('.current > p');
+if (currentParagraphs[2]) currentParagraphs[2].remove();
+document.querySelector('.current strong span')?.remove();
+const storyTitle = document.querySelector('.map-heading h2');
+storyTitle?.insertAdjacentHTML('beforeend', '<small> / 从努力符合既定标准，到慢慢拥有选择自己人生的能力</small>');
